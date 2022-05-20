@@ -15,7 +15,7 @@ void errors(int error)
 		break;
 
 	case 2: /* writes execve error to stderr */
-		perror("Error");
+		error("Error");
 		break;
 
 	case 3: /* writes malloc error to stderr */
